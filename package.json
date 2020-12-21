@@ -1,0 +1,22 @@
+{
+  "name": "knight_digital_development",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/pwa": "^3.0.2",
+    "@sanity/client": "^2.0.9",
+    "@sanity/image-url": "^0.140.19",
+    "core-js": "^3.6.5",
+    "groq": "^2.0.9",
+    "gsap": "^3.5.1",
+    "nuxt": "^2.14.6",
+    "sanity-blocks-vue-component": "^0.1.0"
+  },
+  "devDependencies": {}
+}
