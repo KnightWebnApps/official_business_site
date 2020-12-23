@@ -1,5 +1,6 @@
 <template>
   <Page>
+    <SocialMetaTags :title="post.title" :description="post.description" :image="post.mainImage.img" />
     <template v-slot:header>
       <h1>{{ post.title }}</h1>
     </template>
@@ -15,6 +16,7 @@ import groq from 'groq'
 import blocksToText from '~/lib/blockToText'
 import BlockContent from 'sanity-blocks-vue-component'
 import Page from '~/components/Page.vue'
+import SocialMetaTags from '~/components/SocialMetaTags.vue'
 
 const query = groq`{ "post" : *[_type == "post" && slug.current == $slug]{
   ...,
@@ -27,7 +29,7 @@ const query = groq`{ "post" : *[_type == "post" && slug.current == $slug]{
 }[0] }`
 
 export default {
-  components: { Page, BlockContent },
+  components: { Page, BlockContent, SocialMetaTags },
   async asyncData ({ params, error }) {
     try {
       return await sanityClient.fetch(query, params)

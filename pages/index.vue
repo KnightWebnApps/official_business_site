@@ -33,12 +33,18 @@
         </article>
       </div>
     </section>
+    <section id="review">
+      <h2>Already have a website?</h2>
+      <hr>
+      <p>Get a free review of your current site and validate your performance, search engine optimization, and users experience.</p>
+      <NuxtLink to="/review" class="button--yellow center-btn">Get A Free Review</NuxtLink>
+    </section>
     <section id="howitworks">
       <h2>How Does This Work?</h2>
       <hr>
       <ol>  
         <li>
-          Decide what product and features fit your needs. ( <NuxtLink to="#form" class="inline">Contact Me</NuxtLink> directly for help. )
+          Decide what product and features fit your needs, or <NuxtLink to="#form" class="inline">Contact Me</NuxtLink> directly for help. 
         </li>
         <li>We connect to discuss branding, design, product requirements, feature questions and other aspects of the project.</li>
         <li>View your prototypes and discuss any design changes.</li>
@@ -65,17 +71,17 @@
         <Faq id="faq-img"/>
       </div>
       <hr>
-      <details>
+      <details class="button--yellow">
         <summary>What's included with a project?</summary>
         <p>Every project guarentees to be mobile, handicap, and search engine friendly.  You also get a free domain security so you never have to worry about user being told your site is unsafe.</p>
       </details>
-      <details>
+      <details class="button--yellow">
         <summary>Why would I hire you over building a Wix or Shopify website?</summary>
         <p>Truth is these are reliable tools to work with.  My position is affordable long-term options. Instead of paying $30+/month for a site that your business will never own, pay a flat rate, and own your content.
         </p>
         <p>Lastly, I can abtract away all the website and online marketing management so you can focus on your business.  Just get the reports you need to make actionable desicions.</p>
       </details>
-      <details>
+      <details class="button--yellow">
         <summary>You don't have a feature I need, can you make it?</summary>
         <p>I'm always happy to give you exactly what you need.  The price of the feature will be determined by it's complexity and requirements.</p>
         <p>I keep your cost low by making features in advance, to reduce build and design time.</p>
@@ -163,7 +169,6 @@ export default {
     place-items: center;
     padding: 15px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    background-image: url(~static/blob.svg);
     background-size: 100%;
   }
 

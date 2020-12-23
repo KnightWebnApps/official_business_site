@@ -47,6 +47,18 @@ export default {
     } catch (e) {
       error(e)
     }
+  },
+  head () {
+    return {
+      title: `Knight Digital Development | Products`,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Get the features you need without the enterprise price.'
+        }
+      ]
+    }
   }
 }
 </script>
