@@ -67,14 +67,14 @@
           <h3>Smoothy's</h3>
           <img src="smoothie.png" alt="A mock Smoothy's Logo">
         </div>
-        <a href="https://optimistic-leavitt-f8a6cd.netlify.app/smoothys" class="button--grey">See Example</a>
+        <a href="https://derek-knight-examples.netlify.app/smoothys" class="button--grey">See Example</a>
       </div>
       <div class="allens">
         <div class="example">
           <h3>Allen's Place</h3>
           <p>New Americana fare food at and affordable price</p>
         </div>
-        <a href="https://optimistic-leavitt-f8a6cd.netlify.app/" class="button--grey">See Example</a>
+        <a href="https://derek-knight-examples.netlify.app/" class="button--grey">See Example</a>
       </div>
     </section>
     <section id="faq">
