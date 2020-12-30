@@ -285,6 +285,7 @@ export default {
 
   details {
     margin: 15px 0;
+    width: 100%;
   }
 
   details[open] summary{
