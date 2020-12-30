@@ -12,6 +12,10 @@
         </div>
       </div>
     </template>
+    <!-- <section>
+      TODO 
+      <h2>One Person Web Force</h2>
+    </section> -->
     <section >
       <h2>Why should you work with me?</h2>
       <hr>
@@ -33,12 +37,6 @@
         </article>
       </div>
     </section>
-    <section id="review">
-      <h2>Already have a website?</h2>
-      <hr>
-      <p>Get a free review of your current site and validate your performance, search engine optimization, and users experience.</p>
-      <NuxtLink to="/review" class="button--yellow center-btn">Get A Free Review</NuxtLink>
-    </section>
     <section id="howitworks">
       <h2>How Does This Work?</h2>
       <hr>
@@ -53,9 +51,15 @@
       </ol>
       <NuxtLink to="/products" class="button--cta center-btn">See My Products</NuxtLink>
     </section>
+    <section id="review">
+      <h2>Already have a website?</h2>
+      <hr>
+      <p>Get a free review of your current site and validate your performance, search engine optimization, and user experience.</p>
+      <NuxtLink to="/review" class="button--yellow center-btn">Get A Free Review</NuxtLink>
+    </section>
     <section>
       <h2>Example Sites</h2>
-      <p>See what a live example looks like!</p>
+      <p>See what your website experience could be like!</p>
       <hr>
       <div class="smoothys">
         <div class="example">
@@ -63,6 +67,13 @@
           <img src="smoothie.png" alt="A mock Smoothy's Logo">
         </div>
         <a href="https://optimistic-leavitt-f8a6cd.netlify.app/smoothys" class="button--grey">See Example</a>
+      </div>
+      <div class="allens">
+        <div class="example">
+          <h3>Allen's Place</h3>
+          <p>New Americana fare food at and affordable price</p>
+        </div>
+        <a href="https://optimistic-leavitt-f8a6cd.netlify.app/" class="button--grey">See Example</a>
       </div>
     </section>
     <section id="faq">
@@ -73,18 +84,22 @@
       <hr>
       <details class="button--yellow">
         <summary>What's included with a project?</summary>
-        <p>Every project guarentees to be mobile, handicap, and search engine friendly.  You also get a free domain security so you never have to worry about user being told your site is unsafe.</p>
+        <hr>
+        <p>Every project guarentees to be mobile, handicap, and search engine friendly.  You also get a <b>free domain security certificate</b> so you never have to worry about user being told your site is unsafe.</p>
+        <p>I develop your design based on your branding choices, as well as the target customer and market.  You will see your prototypes, <b>live on the web</b>, to finalize the look and feel of every page.</p>
       </details>
       <details class="button--yellow">
-        <summary>Why would I hire you over building a Wix or Shopify website?</summary>
-        <p>Truth is these are reliable tools to work with.  My position is affordable long-term options. Instead of paying $30+/month for a site that your business will never own, pay a flat rate, and own your content.
+        <summary>Why would I work with you instead of using a website builder?</summary>
+        <hr>
+        <p>My position is affordable long-term options. Instead of paying $30+/month for a site that your business will never own, <b>pay a flat rate</b>, and own your content.  I can build tools to help manage and improve your business too.
         </p>
-        <p>Lastly, I can abtract away all the website and online marketing management so you can focus on your business.  Just get the reports you need to make actionable desicions.</p>
+        <p>Lastly, I can abtract away all the website and online marketing management so you can focus on your business.  Get the reports you need to make <b>actionable desicions</b>.</p>
       </details>
       <details class="button--yellow">
         <summary>You don't have a feature I need, can you make it?</summary>
+        <hr>
         <p>I'm always happy to give you exactly what you need.  The price of the feature will be determined by it's complexity and requirements.</p>
-        <p>I keep your cost low by making features in advance, to reduce build and design time.</p>
+        <p>I keep your cost low by making features in advance.  It reduces build and design time while increasing feature stability.</p>
       </details>
     </section>
     <!-- <section id="sharing-knowledge">
@@ -98,7 +113,7 @@
       </div>
     </section> -->
     <section id="about">
-      <h2>About</h2>
+      <h2>Learn More About Me</h2>
       <hr>
       <div class="me">
         <img src="me.png" alt="Picture of Derek Knight">
@@ -161,6 +176,10 @@ export default {
   @font-face {
     font-family: 'Taviraj';
     src: url(~assets/fonts/Taviraj-Bold.ttf) format('truetype');
+  }
+
+  section {
+    min-height: 75vh;
   }
 
   .header {
@@ -241,6 +260,9 @@ export default {
     margin: 15px 0; 
   }
 
+  /* Review Section */
+
+
   /*  Examples Section */
 
   .smoothys {
@@ -253,12 +275,47 @@ export default {
     margin: 1em 0;
   }
 
-  .example {
+  .smoothys h3 {
+    font-family: 'Taviraj', serif;
+    margin:0;
+  }
+
+  .allens {
+    background-color: rgb(201, 201, 201);
+    padding: 15px;
     display: flex;
     align-items: center;
-    font-family: 'Taviraj', serif;
+    justify-content: space-between;
+    border: 1px solid #333;
+    margin: 1em 0;
+  }
+
+  .allens .example {
     font-size: 38px;
     color: #000;
+    height: 230px;
+    margin: 0 0 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .allens h3 {
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+  }
+
+  .allens p {
+    font-size: 15px;
+  }
+
+  .smoothys .example {
+    display: flex;
+    align-items: center;
+    font-size: 38px;
+    color: #000;
+    height: 230px;
+    margin: 0 15px;
   }
 
   .example img {
@@ -293,10 +350,11 @@ export default {
   }
 
   details p {
-    background-color: #333;
-    color: #fff;
+    /* background-color: #333;
+    color: #fff; */
     padding: 7px;
     transition: opacity 100ms ease-in-out;
+    margin: 1em 0;
   }
 
   /* About Section */
@@ -325,8 +383,8 @@ export default {
   }
   /* Media Queries */
 
-  @media(max-width: 600px){
-    .smoothys {
+  @media(max-width: 610px){
+    .smoothys, .allens {
       flex-direction: column;
     }
 
@@ -337,5 +395,11 @@ export default {
     #about .me {
       flex-direction: column;
     }
+
+    #about a {
+      margin-top: 150px;
+      width: 100%;
+    }
+
   }
 </style>
