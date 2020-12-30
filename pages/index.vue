@@ -55,6 +55,7 @@
       <h2>Already have a website?</h2>
       <hr>
       <p>Get a free review of your current site and validate your performance, search engine optimization, and user experience.</p>
+      <img src="/review.svg" alt="A group discussing how to best improve teir online experience.">
       <NuxtLink to="/review" class="button--yellow center-btn">Get A Free Review</NuxtLink>
     </section>
     <section>
