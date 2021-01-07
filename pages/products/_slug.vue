@@ -7,6 +7,14 @@
     <section>
       <BlockContent v-if="product.body" :blocks="product.body" />
     </section>
+    <section id="posts">
+      <h3>Related Posts</h3>
+      <ul>
+        <li v-for="post in product.relatedPosts" :key="post._id">
+          
+        </li>
+      </ul>
+    </section>
   </Page>
 </template>
 

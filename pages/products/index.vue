@@ -8,7 +8,8 @@
     <ul>
       <li v-for="prod in products" :key="prod._id">
         <NuxtLink :to="'products/' + prod.slug.current" class="button--grey card">
-          <h2>{{ prod.title }}</h2>
+          <h2>{{ prod.title }} <span>$ {{ prod.price }}</span> </h2>
+
           <p>{{ prod.blurb }}</p>
         </NuxtLink>
       </li>
