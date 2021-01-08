@@ -1,16 +1,15 @@
 <template>
   <Page>
     <template v-slot:header>
-      <div class="header">
-        <div>
+      <section class="hero">
+        <article class="content">
           <h1>Knight Digital Development</h1>
           <hr>
           <small id="tagline">I help small businesses grow with <b class="inline">websites</b> that are more affordable than Shopify and Squarespace.</small>
-        </div>
-        <div>
-          <Hero />
-        </div>
-      </div>
+          <a class="cta" href="#pancake">Start Growing</a>
+        </article>
+        <img src="/dev.png" alt="Blb">
+      </section>
     </template>
     <!-- <section>
       TODO 
@@ -169,6 +168,11 @@ export default {
       opacity: 1,
       stagger: 0.9
     })
+
+    gsap.to('.content', {
+      x: 0,
+      opacity: 1
+    })
   }
 }
 </script>
@@ -181,50 +185,70 @@ export default {
 
   section {
     min-height: 75vh;
+    margin-bottom: 50px;
   }
 
-  .header {
-    height: 100vh;
-    display: grid;
-    place-items: center;
-    padding: 15px;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    background-size: 100%;
+  .hero {
+		max-height: 600px;
+		display: grid;
+		grid-template-areas: "hero";
+    align-items: center;
+
+	}
+
+	.hero > * {
+    grid-area: hero;
+	}
+
+	.hero img, .hero video {
+		object-fit: cover;
+		object-position: 5vw -5vmin;
+		height: 80%;
+		width: 80%;
+		justify-self: end;
+    transition: width 180ms ease-in;
+    /* z-index: 0; */
+	}
+
+	.hero > .content {
+		margin: 1rem 0 1rem 5%;
+		max-width: 35%;
+		min-width: 30ch;
+		z-index: 1;
+		background: linear-gradient(90deg, var(--secondary), rgba(255, 255, 255, 0.342));
+		/* background: #33333350; */
+		border-radius: var(--radius);
+    padding: .5rem .5rem;
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  
+  .cta {
+    display: block;
+    background-color: var(--primary);
+    color: #333;
+    border-radius: var(--radius);
+    text-align: center;
+    margin-top: 25px;
+    transition: background-color 100ms ease-out;
+    opacity: .9;
   }
 
-  .header h1 {
-    margin: 1em 0;
-    font-size: 42px;
-    color: #ffffff50;
+  .cta:hover {
+    background-color: var(--secondary);
+    color: var(--white);
   }
 
   #tagline {
-    font-size: 19px;
+    font-size: 15px;
     letter-spacing: .7px;
-  }
-
-  /* #tagline b {
-    background-image: linear-gradient(45deg, var(--primary), var(--black));
-    padding: 2px 5px;
-    border-radius: var(--radius);
-  } */
-
-  /* #blob {
-    z-index: 1;
-    opacity: .5;
-    /* position: absolute;
-    top: 100px;
-    right: 100px; 
-  }*/
+    color: #c2c2c2;
+  } 
 
   .center-btn {
     display: block;
     text-align: center;
     margin: 40px 0;
-  }
-
-  section {
-    margin-bottom: 50px;
   }
 
   #pancake {
@@ -263,6 +287,9 @@ export default {
 
   /* Review Section */
 
+  #review img{
+    margin-top: 25px;
+  }
 
   /*  Examples Section */
 
@@ -385,6 +412,20 @@ export default {
   /* Media Queries */
 
   @media(max-width: 610px){
+    .hero img {
+			width: 60%;
+    }
+    
+    .hero img, .hero video {
+      object-fit: cover;
+      object-position: -15vw -5vmin;
+    }
+
+    .hero > .content {
+      background: #333333c5;
+      margin-left: 0;
+    }
+    
     .smoothys, .allens {
       flex-direction: column;
     }
