@@ -5,27 +5,18 @@
       <hr>
       <p>The foundation of your next project.</p>
     </template>
-    <ul>
-      <li v-for="prod in products" :key="prod._id">
-        <NuxtLink :to="'products/' + prod.slug.current" class="button--grey card">
-          <h2>{{ prod.title }} <span>$ {{ prod.price }}</span> </h2>
-
-          <p>{{ prod.blurb }}</p>
-        </NuxtLink>
-      </li>
-    </ul>
     <section>
-      <h2 id="feature-heading">Features</h2>
-      <hr>
-      <p>Features to add to your new or existing projects.</p>
       <ul>
-        <li v-for="feat in features" :key="feat._id">
-          <NuxtLink :to="'products/features/' + feat.slug.current" class="button--grey card">
-            <h2>{{ feat.title }}</h2>
-            <p>{{ feat.description }}</p>
+        <li v-for="prod in products" :key="prod._id">
+          <NuxtLink :to="'products/' + prod.slug.current" class="button--grey card">
+            <h2>{{ prod.title }} <span>$ {{ prod.price }}</span> </h2>
+
+            <p>{{ prod.blurb }}</p>
           </NuxtLink>
         </li>
       </ul>
+      <h2>Just looking for a Feature?</h2>
+      <NuxtLink to="/features" class="button--grey card">View All Features</NuxtLink>
     </section>
   </Page>
 </template>
@@ -36,8 +27,7 @@ import groq from 'groq'
 import Page from '../../components/Page.vue'
 
 const query = groq`{ 
-  "products": *[_type == "product"],
-  "features": *[_type == "feature"]
+  "products": *[_type == "product"]
 }`
 
 export default {
@@ -79,5 +69,13 @@ h1, #feature-heading {
   padding: 15px;
   color: var(--white);
   border-color: var(--white);
+}
+
+h2 {
+  margin-top: 35px;
+}
+
+a {
+  text-align: center;
 }
 </style>
