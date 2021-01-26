@@ -4,104 +4,454 @@
       <section class="hero">
         <article class="content">
           <h1>Knight Digital Development</h1>
-          <hr>
-          <small id="tagline">I help small businesses grow with <b class="inline">websites</b> that are more affordable than Shopify and Squarespace.</small>
+          <hr />
+          <small id="tagline"
+            >I help small businesses grow with
+            <b class="inline">websites</b> that are more affordable than Shopify
+            and Squarespace.</small
+          >
           <a class="cta" href="#pancake">Start Growing</a>
         </article>
-        <img src="/dev.png" alt="Blb">
+        <svg
+          id="Hero-Image"
+          data-name="Layer 1"
+          viewBox="0 0 407.22 332.41"
+        >
+          <defs>
+            <linearGradient
+              id="linear-gradient"
+              x1="154.44"
+              y1="220.63"
+              x2="204.69"
+              y2="239.78"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop offset="0.01" />
+              <stop offset="0.12" stop-opacity="0.75" />
+              <stop offset="1" stop-opacity="0" />
+            </linearGradient>
+            <linearGradient
+              id="linear-gradient-2"
+              x1="128.92"
+              y1="276.06"
+              x2="113.67"
+              y2="184.09"
+              xlink:href="#linear-gradient"
+            />
+            <linearGradient
+              id="linear-gradient-3"
+              x1="134.36"
+              y1="270.94"
+              x2="159.48"
+              y2="214.41"
+              xlink:href="#linear-gradient"
+            />
+            <linearGradient
+              id="linear-gradient-4"
+              x1="262.98"
+              y1="213.1"
+              x2="219.92"
+              y2="357.78"
+              xlink:href="#linear-gradient"
+            />
+            <linearGradient
+              id="linear-gradient-5"
+              x1="85.31"
+              y1="219.96"
+              x2="127.03"
+              y2="417.81"
+              xlink:href="#linear-gradient"
+            />
+            <linearGradient
+              id="linear-gradient-6"
+              x1="264.92"
+              y1="268.06"
+              x2="265.51"
+              y2="240.84"
+              gradientTransform="translate(530.39 510.8) rotate(180)"
+              xlink:href="#linear-gradient"
+            />
+            <linearGradient
+              id="linear-gradient-7"
+              x1="307.69"
+              y1="284.87"
+              x2="311.73"
+              y2="182.58"
+              xlink:href="#linear-gradient"
+            />
+          </defs>
+          <title>Web Developer</title>
+          <rect
+            x="36.21"
+            y="12.31"
+            width="370.4"
+            height="237.25"
+            rx="8.95"
+            fill="#fed047"
+            opacity="0.48"
+            style="isolation:isolate"
+          />
+          <path
+            d="M404.17,279.66c-.27,7.77-2.05,15.68-6.4,22.12-5.48,8.11-14.38,13.13-23,17.85l-24.44,13.45c-10.71,5.9-22,11.94-34.21,12.11-8.64.13-17-2.72-25.31-5.11C252,328.88,211.12,327.31,171,330.14c-20.55,1.45-41,4-61.36,7.07-16.29,2.42-35.84,10.47-50.53.94-16-10.4-25.82-27.24-34.86-43.59C16.38,280.37,8.4,265.83,5.8,249.82c-4-24.74,5.58-50.15,20.57-70.25a161.15,161.15,0,0,1,14.73-17V253.4a9,9,0,0,0,8.95,9H402.54A70.17,70.17,0,0,1,404.17,279.66Z"
+            transform="translate(-4.89 -12.78)"
+            fill="#fed047"
+            opacity="0.18"
+            style="isolation:isolate"
+          />
+          <path
+            d="M272.47,25.1H178.22a56.62,56.62,0,0,1,11.48-6.76c7.45-3.25,15.57-4.7,23.67-5.28C233.75,11.59,254.19,16.09,272.47,25.1Z"
+            transform="translate(-4.89 -12.78)"
+            fill="#fed047"
+            opacity="0.18"
+            style="isolation:isolate"
+          />
+          <path
+            d="M186.23,232.48a14.62,14.62,0,0,0,3.27,3.16,15.28,15.28,0,0,0,6,1.78l31.92,4.81a1.85,1.85,0,0,1,.89.3,1.82,1.82,0,0,1,.47,1.44,56.17,56.17,0,0,1-2.39,17.66,2.44,2.44,0,0,1-.65,1.24,2.56,2.56,0,0,1-1.46.44c-10.74.91-21.53.62-32.3.33a22,22,0,0,1-5.38-.59c-3-.84-5.45-2.89-7.71-5-4.85-4.51-24.48-22.64-25.67-25.1a67.19,67.19,0,0,1-3.8-10.92c-1-3.6,6.31-4.05,6.16-7.79a24.17,24.17,0,0,1,.92-7.66,13.08,13.08,0,0,1,3.2-5.92c1.1-1-.6-7.78.92-7.86,1.76,6,9.72,18,13.18,23.14A193.68,193.68,0,0,0,186.23,232.48Z"
+            transform="translate(-4.89 -12.78)"
+            fill="#fed047"
+          />
+          <path
+            d="M186.23,232.48a14.62,14.62,0,0,0,3.27,3.16,15.28,15.28,0,0,0,6,1.78l31.92,4.81a1.85,1.85,0,0,1,.89.3,1.82,1.82,0,0,1,.47,1.44,56.17,56.17,0,0,1-2.39,17.66,2.44,2.44,0,0,1-.65,1.24,2.56,2.56,0,0,1-1.46.44c-10.74.91-21.53.62-32.3.33a22,22,0,0,1-5.38-.59c-3-.84-5.45-2.89-7.71-5-4.85-4.51-24.48-22.64-25.67-25.1a67.19,67.19,0,0,1-3.8-10.92c-1-3.6,6.31-4.05,6.16-7.79a24.17,24.17,0,0,1,.92-7.66,13.08,13.08,0,0,1,3.2-5.92c1.1-1-.6-7.78.92-7.86,1.76,6,9.72,18,13.18,23.14A193.68,193.68,0,0,0,186.23,232.48Z"
+            transform="translate(-4.89 -12.78)"
+            fill="url(#linear-gradient)"
+          />
+          <path
+            d="M105.46,181.82a58.54,58.54,0,0,0-6,6.2c-4.42,5.43-7.36,11.89-10.1,18.33-7.29,17.14-13.64,35.47-11.75,54a7,7,0,0,0,.88,3.18,6.19,6.19,0,0,0,3.43,2.21c3.51,1.12,7.26,1.17,11,1.2,14.41.13,28.84.26,43.24-.44,2.23-.11,4.59-.28,6.44-1.54a10.44,10.44,0,0,0,3.14-3.93c3.87-7.28,5-15.7,8-23.36,4-10,15-19.09,12.68-29.63C156.5,163.29,110,177.69,105.46,181.82Z"
+            transform="translate(-4.89 -12.78)"
+            fill="#fed047"
+          />
+          <path
+            d="M105.46,181.82a58.54,58.54,0,0,0-6,6.2c-4.42,5.43-7.36,11.89-10.1,18.33-7.29,17.14-13.64,35.47-11.75,54a7,7,0,0,0,.88,3.18,6.19,6.19,0,0,0,3.43,2.21c3.51,1.12,7.26,1.17,11,1.2,14.41.13,28.84.26,43.24-.44,2.23-.11,4.59-.28,6.44-1.54a10.44,10.44,0,0,0,3.14-3.93c3.87-7.28,5-15.7,8-23.36,4-10,15-19.09,12.68-29.63C156.5,163.29,110,177.69,105.46,181.82Z"
+            transform="translate(-4.89 -12.78)"
+            fill="url(#linear-gradient-2)"
+          />
+          <path
+            d="M170.58,144.75c-1.69,8.21-3.46,16.64-8,23.71a18.36,18.36,0,0,1-6.93,6.82c-2.93,1.47-6.65,1.67-9.39-.13-1.37-.89-2.87-2.29-4.36-1.63-1.08.49-1.43,1.83-1.58,3a30.2,30.2,0,0,0,.12,8.65,7.31,7.31,0,0,1,.14,2.46,4.06,4.06,0,0,1-3.25,3,7.75,7.75,0,0,1-4.53-.71,14.64,14.64,0,0,1-8.44-10.82,35.06,35.06,0,0,1-.3-4.8c-.19-7.12-1.32-14.21-1.09-21.32s2-14.51,6.83-19.76a31.12,31.12,0,0,1,9.76-6.76c5.45-2.6,11.53-4.43,17.49-3.48a16.62,16.62,0,0,1,11.57,7.72C171.74,135.49,171.75,139.06,170.58,144.75Z"
+            transform="translate(-4.89 -12.78)"
+            fill="#ffdad2"
+          />
+          <path
+            d="M185.47,126.66A16.55,16.55,0,0,0,176.72,110c-2.65-1.32-5.6-1.88-8.46-2.64-6.7-1.8-13.13-4.78-20-5.42s-14.77,1.77-17.83,8c-.56,1.14-1.11,2.52-2.34,2.82a5.13,5.13,0,0,1-2-.18c-4.59-.81-8.72,3.11-10.79,7.28-3.34,6.75-3.51,14.62-2.78,22.11.67,6.93,2.44,14.42,8,18.64.55.42,1.36.8,1.89.35a1.58,1.58,0,0,0,.43-.93,30.4,30.4,0,0,0,.62-8c-.11-2-.43-4.12.09-6.09s2.19-3.84,4.23-3.78c1.89,0,3.41,1.76,3.88,3.6a13.28,13.28,0,0,1-.21,5.64c.3.75,1.35-.15,1.53-.93,1.38-6.28,1.69-13.31,6.05-18a7.73,7.73,0,0,1,1.88,3.27,5,5,0,0,1,5.15-1.28,12.24,12.24,0,0,1,3.44,2.25C160.12,145,183.24,142.54,185.47,126.66Z"
+            transform="translate(-4.89 -12.78)"
+            fill="#3f3d56"
+          />
+          <path
+            d="M108.52,192.06c-3.36,2.44-5,6.73-5.1,10.87s4.28,30.41,8.41,37.87c3.2,5.8,9.87,20.94,20,25.12,3,1.24,47.35.72,67.93-1.51-.13-4.87-.37-9.74-.69-14.61a2.77,2.77,0,0,0-.55-1.79c-.52-.54-1.26-4.07-2-4.07-12,.05-24.1,3.72-36.1,4a21.12,21.12,0,0,1-5.21-.31,15,15,0,0,1-4-1.64c-9.26-5.24-14.38-15.53-18-25.54-2.77-7.72-5-15.71-9-22.92-1.42-2.57-2.69-5.07-5.49-6.2C115.43,190,111.57,189.85,108.52,192.06Z"
+            transform="translate(-4.89 -12.78)"
+            fill="#fed047"
+          />
+          <path
+            d="M108.52,192.06c-3.36,2.44-5,6.73-5.1,10.87s4.28,30.41,8.41,37.87c3.2,5.8,9.87,20.94,20,25.12,3,1.24,47.35.72,67.93-1.51-.13-4.87-.37-9.74-.69-14.61a2.77,2.77,0,0,0-.55-1.79c-.52-.54-1.26-4.07-2-4.07-12,.05-24.1,3.72-36.1,4a21.12,21.12,0,0,1-5.21-.31,15,15,0,0,1-4-1.64c-9.26-5.24-14.38-15.53-18-25.54-2.77-7.72-5-15.71-9-22.92-1.42-2.57-2.69-5.07-5.49-6.2C115.43,190,111.57,189.85,108.52,192.06Z"
+            transform="translate(-4.89 -12.78)"
+            fill="url(#linear-gradient-3)"
+          />
+          <path
+            d="M198,243c6.23-.59,13.15.8,17.1,5.65a3,3,0,0,1,.78,1.6,2.68,2.68,0,0,1-.48,1.51c-2.33,3.87-7.39,4.79-11.64,6.32a30.22,30.22,0,0,0-6.29,3.12,10,10,0,0,1-3.76,1.86c-3,.45-5.49-2.23-6.85-4.91-1.56-3-4-9.16-1-12C188.31,243.9,194.92,243.28,198,243Z"
+            transform="translate(-4.89 -12.78)"
+            fill="#ffdad2"
+          />
+          <path
+            d="M249.59,241.46a8.53,8.53,0,0,1,2.79,2.55,3.67,3.67,0,0,1,.26,3.63,5.05,5.05,0,0,1-1.87,1.68c-5.53,3.29-12.31,3.88-17.91,7A9.73,9.73,0,0,1,229,258a5.33,5.33,0,0,1-4.28-2,13.6,13.6,0,0,1-2.31-4.27C215.86,234.53,240.17,235.46,249.59,241.46Z"
+            transform="translate(-4.89 -12.78)"
+            fill="#ffdad2"
+          />
+          <path
+            d="M86.23,221h25.91a0,0,0,0,1,0,0v21.28a7.5,7.5,0,0,1-7.5,7.5H93.73a7.5,7.5,0,0,1-7.5-7.5V221A0,0,0,0,1,86.23,221Z"
+            fill="#fff"
+          />
+          <path
+            d="M110.39,226.16h7.85a6.25,6.25,0,0,1,6.25,6.25V235a6.25,6.25,0,0,1-6.25,6.25h-7.85a0,0,0,0,1,0,0V226.16A0,0,0,0,1,110.39,226.16Z"
+            fill="none"
+            stroke="#fff"
+            stroke-miterlimit="10"
+            stroke-width="3.3"
+          />
+          <rect
+            x="45.12"
+            y="249.32"
+            width="362.1"
+            height="11.11"
+            rx="5.56"
+            fill="#fed047"
+          />
+          <rect
+            x="138.75"
+            y="260.6"
+            width="198.39"
+            height="68.81"
+            fill="#fed047"
+          />
+          <rect
+            x="62.17"
+            y="260.6"
+            width="77.93"
+            height="68.81"
+            fill="#fed047"
+          />
+          <rect
+            x="140.06"
+            y="260.6"
+            width="197.09"
+            height="68.81"
+            fill="url(#linear-gradient-4)"
+          />
+          <rect
+            x="62.17"
+            y="260.6"
+            width="77.93"
+            height="68.81"
+            fill="url(#linear-gradient-5)"
+          />
+          <path
+            d="M411.49,34.05v43.8H41.1V34.05a9,9,0,0,1,8.95-9H402.54A9,9,0,0,1,411.49,34.05Z"
+            transform="translate(-4.89 -12.78)"
+            fill="#fed047"
+            opacity="0.18"
+            style="isolation:isolate"
+          />
+          <rect
+            x="194.46"
+            y="248.88"
+            width="141.48"
+            height="13.04"
+            rx="6.52"
+            transform="translate(525.5 498.01) rotate(-180)"
+            fill="#fed047"
+          />
+          <rect
+            x="194.46"
+            y="248.88"
+            width="141.48"
+            height="13.04"
+            rx="6.52"
+            transform="translate(525.5 498.01) rotate(-180)"
+            fill="url(#linear-gradient-6)"
+          />
+          <path
+            d="M245.51,261.93h98.57l26-65.93a5.8,5.8,0,0,0-5.39-7.92H287.34A18.68,18.68,0,0,0,270,199.9Z"
+            transform="translate(-4.89 -12.78)"
+            fill="#fed047"
+          />
+          <path
+            d="M250.52,262h93.62l24.69-62.63a5.5,5.5,0,0,0-5.12-7.52H290.25a17.73,17.73,0,0,0-16.5,11.22Z"
+            transform="translate(-4.89 -12.78)"
+            fill="#fed047"
+          />
+          <path
+            d="M250.52,262h93.62l24.69-62.63a5.5,5.5,0,0,0-5.12-7.52H290.25a17.73,17.73,0,0,0-16.5,11.22Z"
+            transform="translate(-4.89 -12.78)"
+            fill="url(#linear-gradient-7)"
+          />
+          <rect
+            x="213.02"
+            y="154.61"
+            width="138.6"
+            height="7.8"
+            fill="#fff"
+            opacity="0.51"
+          />
+          <rect x="213.02" y="141.26" width="98.53" height="7.8" fill="#fff" />
+          <rect x="325.02" y="141.26" width="65.96" height="7.8" fill="#fff" />
+          <rect x="289.34" y="91.88" width="101.41" height="6.93" fill="#fff" />
+          <rect
+            x="268.1"
+            y="104.19"
+            width="108.49"
+            height="6.93"
+            fill="#fff"
+            opacity="0.51"
+          />
+          <rect x="214.9" y="91.88" width="66.7" height="6.93" fill="#fff" />
+          <rect
+            x="244.16"
+            y="116.13"
+            width="146.59"
+            height="6.93"
+            fill="#fff"
+          />
+          <rect
+            x="214.9"
+            y="116.13"
+            width="21.52"
+            height="6.93"
+            fill="#fff"
+            opacity="0.51"
+          />
+          <rect
+            x="293.99"
+            y="128.44"
+            width="96.76"
+            height="6.93"
+            fill="#fff"
+            opacity="0.51"
+          />
+          <rect x="214.9" y="128.44" width="66.7" height="6.93" fill="#fff" />
+          <rect x="214.9" y="103.9" width="42.89" height="6.93" fill="#fff" />
+          <rect x="252.25" y="68.55" width="101.41" height="6.93" fill="#fff" />
+          <rect
+            x="231.01"
+            y="80.86"
+            width="108.49"
+            height="6.93"
+            fill="#fff"
+            opacity="0.51"
+          />
+          <rect x="177.82" y="68.55" width="66.7" height="6.93" fill="#fff" />
+          <rect x="251.35" y="54.2" width="101.41" height="6.93" fill="#fff" />
+          <rect x="176.92" y="41.18" width="66.7" height="6.93" fill="#fff" />
+          <rect x="176.92" y="29.3" width="66.7" height="6.93" fill="#fff" />
+          <rect x="177.82" y="80.57" width="42.89" height="6.93" fill="#fff" />
+        </svg>
+        <!-- <img role="none" src="/developer.svg" alt="Derek Knight working to grow businesses."> -->
       </section>
     </template>
     <!-- <section>
       TODO 
       <h2>One Person Web Force</h2>
     </section> -->
-    <section >
+    <section>
       <h2>Why should you work with me?</h2>
-      <hr>
+      <hr />
       <div id="pancake">
         <article class="cake">
-          <Savings id="savings"/>
-          <hr>
-          <p>Enterprise and agency level features that are more affordable than Shopify and other competitors.</p>
+          <Savings id="savings" />
+          <hr />
+          <p>
+            Enterprise and agency level features that are more affordable than
+            Shopify and other competitors.
+          </p>
         </article>
         <article class="cake">
-          <Hourglass id="hourglass"/>
-          <hr>
-          <p>Fast performance, quality design and modern reliable optimizations.</p>
+          <Hourglass id="hourglass" />
+          <hr />
+          <p>
+            Fast performance, quality design and modern reliable optimizations.
+          </p>
         </article>
         <article class="cake">
           <ProblemSolving />
-          <hr>
-          <p>Only pay for the features you need and add what you need as you grow.</p>
+          <hr />
+          <p>
+            Only pay for the features you need and add what you need as you
+            grow.
+          </p>
         </article>
       </div>
     </section>
     <section id="howitworks">
       <h2>How Does This Work?</h2>
-      <hr>
-      <ol>  
+      <hr />
+      <ol>
         <li>
-          Decide what product and features fit your needs, or <NuxtLink to="#form" class="inline">Contact Me</NuxtLink> directly for help. 
+          Decide what product and features fit your needs, or
+          <NuxtLink to="#form" class="inline">Contact Me</NuxtLink> directly for
+          help.
         </li>
-        <li>We connect to discuss branding, design, product requirements, feature questions and other aspects of the project.</li>
+        <li>
+          We connect to discuss branding, design, product requirements, feature
+          questions and other aspects of the project.
+        </li>
         <li>View your prototypes and discuss any design changes.</li>
-        <li>Confirm final prototpe and go live. </li>
+        <li>Confirm final prototpe and go live.</li>
         <li>Project hand-off or continue with Analytics and Ad services.</li>
       </ol>
-      <NuxtLink to="/products" class="button--cta center-btn">See My Products</NuxtLink>
+      <NuxtLink to="/products" class="button--cta center-btn"
+        >See My Products</NuxtLink
+      >
     </section>
     <section id="review">
       <h2>Already have a website?</h2>
-      <hr>
+      <hr />
       <div class="content">
-        <p>Get a free review of your current site and validate your performance, search engine optimization, and user experience.</p>
-        <img src="/review.svg" alt="A group discussing how to best improve their online experience.">
-        <NuxtLink to="/review" class="button--yellow center-btn">Get A Free Review</NuxtLink>
+        <p>
+          Get a free review of your current site and validate your performance,
+          search engine optimization, and user experience.
+        </p>
+        <img
+          src="/review.svg"
+          alt="A group discussing how to best improve their online experience."
+        />
+        <NuxtLink to="/review" class="button--yellow center-btn"
+          >Get A Free Review</NuxtLink
+        >
       </div>
     </section>
     <section>
       <h2>Example Sites</h2>
       <p>See what your website experience could be like!</p>
-      <hr>
+      <hr />
       <div class="smoothys">
         <div class="example">
           <h3>Smoothy's</h3>
-          <img src="smoothie.png" alt="A mock Smoothy's Logo">
+          <img src="smoothie.png" alt="A mock Smoothy's Logo" />
         </div>
-        <a href="https://derek-knight-examples.netlify.app/smoothys" class="button--grey">See Example</a>
+        <a
+          href="https://derek-knight-examples.netlify.app/smoothys"
+          class="button--grey"
+          >See Example</a
+        >
       </div>
       <div class="allens">
         <div class="example">
           <h3>Allen's Place</h3>
           <p>New Americana fare food at and affordable price</p>
         </div>
-        <a href="https://derek-knight-examples.netlify.app/" class="button--grey">See Example</a>
+        <a
+          href="https://derek-knight-examples.netlify.app/"
+          class="button--grey"
+          >See Example</a
+        >
       </div>
     </section>
     <section id="faq">
       <div id="faq-header">
         <h2>FAQ's</h2>
-        <Faq id="faq-img"/>
+        <Faq id="faq-img" />
       </div>
-      <hr>
+      <hr />
       <details class="button--yellow">
         <summary>What's included with a project?</summary>
-        <hr>
-        <p>Every project guarentees to be mobile, handicap, and search engine friendly.  You also get a <b>free domain security certificate</b> so you never have to worry about user being told your site is unsafe.</p>
-        <p>I develop your design based on your branding choices, as well as the target customer and market.  You will see your prototypes, <b>live on the web</b>, to finalize the look and feel of every page.</p>
+        <hr />
+        <p>
+          Every project guarentees to be mobile, handicap, and search engine
+          friendly. You also get a <b>free domain security certificate</b> so
+          you never have to worry about user being told your site is unsafe.
+        </p>
+        <p>
+          I develop your design based on your branding choices, as well as the
+          target customer and market. You will see your prototypes,
+          <b>live on the web</b>, to finalize the look and feel of every page.
+        </p>
       </details>
       <details class="button--yellow">
-        <summary>Why would I work with you, instead of using a website builder?</summary>
-        <hr>
-        <p>My position is affordable long-term options. Instead of paying $30+/month for a site that your business will never own, <b>pay a flat rate</b>, and own your content.  I can build tools to help manage and improve your business too.
+        <summary
+          >Why would I work with you, instead of using a website
+          builder?</summary
+        >
+        <hr />
+        <p>
+          My position is affordable long-term options. Instead of paying
+          $30+/month for a site that your business will never own,
+          <b>pay a flat rate</b>, and own your content. I can build tools to
+          help manage and improve your business too.
         </p>
-        <p>Lastly, I can abtract away all the website and online marketing management so you can focus on your business.  Get the reports you need to make <b>actionable desicions</b>.</p>
+        <p>
+          Lastly, I can abtract away all the website and online marketing
+          management so you can focus on your business. Get the reports you need
+          to make <b>actionable desicions</b>.
+        </p>
       </details>
       <details class="button--yellow">
         <summary>You don't have a feature I need, can you make it?</summary>
-        <hr>
-        <p>I'm always happy to give you exactly what you need.  The price of the feature will be determined by it's complexity and requirements.</p>
-        <p>I keep your cost low by making features in advance.  It reduces build and design time while increasing feature stability.</p>
+        <hr />
+        <p>
+          I'm always happy to give you exactly what you need. The price of the
+          feature will be determined by it's complexity and requirements.
+        </p>
+        <p>
+          I keep your cost low by making features in advance. It reduces build
+          and design time while increasing feature stability.
+        </p>
       </details>
     </section>
     <!-- <section id="sharing-knowledge">
@@ -125,8 +475,8 @@
     </section> -->
     <section id="form">
       <h2>Let's get in touch.</h2>
-      <hr>
-      <ContactForm/>
+      <hr />
+      <ContactForm />
     </section>
     <!-- <section>
       <h2>After the Project</h2>
@@ -139,17 +489,17 @@
 </template>
 
 <script>
-import Page from '~/components/Page'
-import ContactForm from '~/components/ContactForm'
-import Hero from '~/components/home/Hero'
-import Hourglass from '~/components/home/Hourglass'
-import Savings from '~/components/home/Savings'
-import ProblemSolving from '~/components/home/ProblemSolving'
+import Page from "~/components/Page";
+import ContactForm from "~/components/ContactForm";
+import Hero from "~/components/home/Hero";
+import Hourglass from "~/components/home/Hourglass";
+import Savings from "~/components/home/Savings";
+import ProblemSolving from "~/components/home/ProblemSolving";
 
-import gsap from 'gsap'
-import TextPlugin from 'gsap/dist/TextPlugin'
-import ScrollTrigger from 'gsap/dist/ScrollTrigger'
-import Faq from '../components/home/Faq.vue'
+import gsap from "gsap";
+import TextPlugin from "gsap/dist/TextPlugin";
+import ScrollTrigger from "gsap/dist/ScrollTrigger";
+import Faq from "../components/home/Faq.vue";
 
 gsap.registerPlugin(TextPlugin);
 gsap.registerPlugin(ScrollTrigger);
@@ -164,297 +514,306 @@ export default {
     Faq,
     Savings
   },
-  mounted () {
-    gsap.to('.cake', { 
+  mounted() {
+    gsap.to(".cake", {
       scrollTrigger: "#savings",
       y: -10,
       opacity: 1,
       stagger: 0.9
-    })
+    });
 
-    gsap.to('.content', {
+    gsap.to(".content", {
       x: 0,
-      opacity: 1
-    })
+      opacity: 1,
+      delay: .5
+    });
   }
-}
+};
 </script>
 
 <style scoped>
-  @font-face {
-    font-family: 'Taviraj';
-    src: url(~assets/fonts/Taviraj-Bold.ttf) format('truetype');
-  }
+@font-face {
+  font-family: "Taviraj";
+  src: url(~assets/fonts/Taviraj-Bold.ttf) format("truetype");
+}
 
-  section {
-    min-height: 75vh;
-    margin-bottom: 50px;
-  }
+section {
+  min-height: 75vh;
+  margin-bottom: 50px;
+}
 
-  .hero {
-		max-height: 600px;
-		display: grid;
-		grid-template-areas: "hero";
-    align-items: center;
+.hero {
+  max-height: 600px;
+  display: grid;
+  grid-template-areas: "hero";
+  align-items: center;
+}
 
-	}
+.hero > * {
+  grid-area: hero;
+}
 
-	.hero > * {
-    grid-area: hero;
-	}
+.hero img,
+.hero video,
+.hero svg {
+  object-fit: cover;
+  object-position: 5vw -5vmin;
+  height: 80%;
+  width: 80%;
+  justify-self: end;
+  transition: width 180ms ease-in;
+  /* z-index: 0; */
+}
 
-	.hero img, .hero video {
-		object-fit: cover;
-		object-position: 5vw -5vmin;
-		height: 80%;
-		width: 80%;
-		justify-self: end;
-    transition: width 180ms ease-in;
-    /* z-index: 0; */
-	}
+.hero > .content {
+  margin: 1rem 0 1rem 5%;
+  max-width: 35%;
+  min-width: 30ch;
+  z-index: 1;
+  background: linear-gradient(
+    90deg,
+    var(--secondary),
+    rgba(255, 255, 255, 0.342)
+  );
+  /* background: #33333350; */
+  border-radius: var(--radius);
+  padding: 0.5rem 0.5rem;
+  transform: translateX(-100%);
+  opacity: 0;
+}
 
-	.hero > .content {
-		margin: 1rem 0 1rem 5%;
-		max-width: 35%;
-		min-width: 30ch;
-		z-index: 1;
-		background: linear-gradient(90deg, var(--secondary), rgba(255, 255, 255, 0.342));
-		/* background: #33333350; */
-		border-radius: var(--radius);
-    padding: .5rem .5rem;
-    transform: translateX(-100%);
-    opacity: 0;
-  }
-  
-  .cta {
-    display: block;
-    background-color: var(--primary);
-    color: #333;
-    border-radius: var(--radius);
-    text-align: center;
-    margin-top: 25px;
-    transition: background-color 100ms ease-out;
-    opacity: .9;
-  }
+.cta {
+  display: block;
+  background-color: var(--primary);
+  color: #333;
+  border-radius: var(--radius);
+  text-align: center;
+  margin-top: 25px;
+  transition: background-color 100ms ease-out;
+  opacity: 0.9;
+}
 
-  .cta:hover {
-    background-color: var(--secondary);
-    color: var(--white);
-  }
+.cta:hover {
+  background-color: var(--secondary);
+  color: var(--white);
+}
 
-  #tagline {
-    font-size: 15px;
-    letter-spacing: .7px;
-    color: #c2c2c2;
-  } 
+#tagline {
+  font-size: 15px;
+  letter-spacing: 0.7px;
+  color: #c2c2c2;
+}
 
-  .center-btn {
-    display: block;
-    text-align: center;
-    margin: 40px 0;
-  }
+.center-btn {
+  display: block;
+  text-align: center;
+  margin: 40px 0;
+}
 
-  #pancake {
-    padding: 15px;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 6em;
-  }
+#pancake {
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 6em;
+}
 
-  .cake {
-    /* height: 70vh; */
-    flex: 0 1 300px;
-    margin: 15px 15px 50px;
-    font-size: 19px;
-    bottom: 100px;
-    opacity: 0;
-  }
+.cake {
+  /* height: 70vh; */
+  flex: 0 1 300px;
+  margin: 15px 15px 50px;
+  font-size: 19px;
+  bottom: 100px;
+  opacity: 0;
+}
 
-  /* #hourglass {
+/* #hourglass {
   } */
 
-  .cake hr {
-    margin-top: -40px;
-  }
-  /* How It Works Section */
+.cake hr {
+  margin-top: -40px;
+}
+/* How It Works Section */
 
-  #howitworks h2 {
-    margin-bottom: 15px;
-  }
+#howitworks h2 {
+  margin-bottom: 15px;
+}
 
-  #howitworks li {
-    margin: 15px 0; 
-  }
+#howitworks li {
+  margin: 15px 0;
+}
 
-  /* Review Section */
+/* Review Section */
 
-  #review .content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width:100%;
-  }
+#review .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
 
-  #review img{
-    /* margin-top: 25px; */
-    max-height: 500px;
-    max-width: 500px;
-    margin: 50px auto 25px;
-  }
+#review img {
+  /* margin-top: 25px; */
+  max-height: 500px;
+  max-width: 500px;
+  margin: 50px auto 25px;
+}
 
-  /*  Examples Section */
+/*  Examples Section */
 
-  .smoothys {
-    background-color: #fff;
-    padding: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border: 1px solid #333;
-    margin: 1em 0;
-  }
+.smoothys {
+  background-color: #fff;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #333;
+  margin: 1em 0;
+}
 
-  .smoothys h3 {
-    font-family: 'Taviraj', serif;
-    margin:0;
-  }
+.smoothys h3 {
+  font-family: "Taviraj", serif;
+  margin: 0;
+}
 
-  .allens {
-    background-color: rgb(201, 201, 201);
-    padding: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border: 1px solid #333;
-    margin: 1em 0;
-  }
+.allens {
+  background-color: rgb(201, 201, 201);
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #333;
+  margin: 1em 0;
+}
 
-  .allens .example {
-    font-size: 38px;
-    color: #000;
-    height: 230px;
-    margin: 0 0 0 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+.allens .example {
+  font-size: 38px;
+  color: #000;
+  height: 230px;
+  margin: 0 0 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
-  .allens h3 {
-    text-decoration: underline;
-    text-decoration-thickness: 4px;
-  }
+.allens h3 {
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+}
 
-  .allens p {
-    font-size: 15px;
-  }
+.allens p {
+  font-size: 15px;
+}
 
-  .smoothys .example {
-    display: flex;
-    align-items: center;
-    font-size: 38px;
-    color: #000;
-    height: 230px;
-    margin: 0 15px;
-  }
+.smoothys .example {
+  display: flex;
+  align-items: center;
+  font-size: 38px;
+  color: #000;
+  height: 230px;
+  margin: 0 15px;
+}
 
-  .example img {
-    height: 42px;
-    width: 42px;
-  }
+.example img {
+  height: 42px;
+  width: 42px;
+}
 
-  /* FAQ Section */
+/* FAQ Section */
 
-  #faq-header {
-    /* height: 100px; */
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-  }
+#faq-header {
+  /* height: 100px; */
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
 
-  #faq-img {
-    height: 75px;
-    width: 150px;
-    justify-self: flex-start;
-  }
+#faq-img {
+  height: 75px;
+  width: 150px;
+  justify-self: flex-start;
+}
 
-  /* Details Section */
+/* Details Section */
 
-  details {
-    margin: 15px 0;
-    width: 100%;
-  }
+details {
+  margin: 15px 0;
+  width: 100%;
+}
 
-  details[open] summary{
-    font-weight: bold;
-  }
+details[open] summary {
+  font-weight: bold;
+}
 
-  details p {
-    /* background-color: #333;
+details p {
+  /* background-color: #333;
     color: #fff; */
-    padding: 7px;
-    transition: opacity 100ms ease-in-out;
-    margin: 1em 0;
+  padding: 7px;
+  transition: opacity 100ms ease-in-out;
+  margin: 1em 0;
+}
+
+/* About Section */
+#about {
+  height: 300px;
+  margin-bottom: 150px;
+}
+
+#about .me {
+  display: grid;
+  place-items: center;
+  margin-top: 50px;
+  /* justify-content: space-evenly; */
+}
+#about img {
+  border-radius: 50%;
+  background-color: #333;
+  width: 220px;
+  height: 200px;
+  margin-bottom: 15px;
+}
+
+#about a {
+  width: 200px;
+  text-align: center;
+}
+/* Media Queries */
+
+@media (max-width: 610px) {
+  .hero img, .hero svg {
+    width: 90%;
+    /* margin-left: 100px; */
   }
 
-  /* About Section */
-  #about {
-    height: 300px;
-    margin-bottom: 150px;
+  .hero img,
+  .hero video,
+  .hero svg {
+    object-fit: cover;
+    object-position: -15vw -35vmin;
+  }
+
+  .hero > .content {
+    background: #333333c5;
+    margin-left: 0;
+  }
+
+  .smoothys,
+  .allens {
+    flex-direction: column;
+  }
+
+  .example {
+    margin-bottom: 15px;
   }
 
   #about .me {
-    display: grid;
-    place-items: center;
-    margin-top: 50px;
-    /* justify-content: space-evenly; */
-  }
-  #about img {
-    border-radius: 50%;
-    background-color: #333;
-    width: 220px;
-    height: 200px;
-    margin-bottom: 15px;
+    flex-direction: column;
   }
 
   #about a {
-    width: 200px;
-    text-align: center;
+    margin-top: 150px;
+    width: 100%;
   }
-  /* Media Queries */
-
-  @media(max-width: 610px){
-    .hero img {
-			width: 60%;
-    }
-    
-    .hero img, .hero video {
-      object-fit: cover;
-      object-position: -15vw -5vmin;
-    }
-
-    .hero > .content {
-      background: #333333c5;
-      margin-left: 0;
-    }
-    
-    .smoothys, .allens {
-      flex-direction: column;
-    }
-
-    .example {
-      margin-bottom: 15px;
-    }
-
-    #about .me {
-      flex-direction: column;
-    }
-
-    #about a {
-      margin-top: 150px;
-      width: 100%;
-    }
-
-  }
+}
 </style>
