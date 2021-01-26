@@ -12,10 +12,23 @@
             <h2>{{ prod.title }} <span>$ {{ prod.price }}</span> </h2>
 
             <p>{{ prod.blurb }}</p>
+
+            <!-- <button 
+              v-if="product._id === prod._id" 
+              @click="() => localStorage.removeItem('project')"
+            >Remove from Calculator</button>
+
+            <button 
+              v-else 
+              @click="() => localStorage.setItem('project', JSON.stringify(prod))"
+            >Add to Calculator</button> -->
+
           </NuxtLink>
         </li>
       </ul>
-      <h2>Just looking for a Feature?</h2>
+      <h2>Features</h2>
+      <hr>
+      <p>Add features to bring your project to life.</p>
       <NuxtLink to="/features" class="button--grey card">View All Features</NuxtLink>
     </section>
   </Page>
@@ -37,6 +50,11 @@ export default {
       return await sanityClient.fetch(query)
     } catch (e) {
       error(e)
+    }
+  },
+  data() {
+    return {
+      project: localStorage.getItem('project') || null
     }
   },
   head () {

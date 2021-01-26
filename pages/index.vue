@@ -53,9 +53,11 @@
     <section id="review">
       <h2>Already have a website?</h2>
       <hr>
-      <p>Get a free review of your current site and validate your performance, search engine optimization, and user experience.</p>
-      <img src="/review.svg" alt="A group discussing how to best improve teir online experience.">
-      <NuxtLink to="/review" class="button--yellow center-btn">Get A Free Review</NuxtLink>
+      <div class="content">
+        <p>Get a free review of your current site and validate your performance, search engine optimization, and user experience.</p>
+        <img src="/review.svg" alt="A group discussing how to best improve teir online experience.">
+        <NuxtLink to="/review" class="button--yellow center-btn">Get A Free Review</NuxtLink>
+      </div>
     </section>
     <section>
       <h2>Example Sites</h2>
@@ -89,7 +91,7 @@
         <p>I develop your design based on your branding choices, as well as the target customer and market.  You will see your prototypes, <b>live on the web</b>, to finalize the look and feel of every page.</p>
       </details>
       <details class="button--yellow">
-        <summary>Why would I work with you instead of using a website builder?</summary>
+        <summary>Why would I work with you, instead of using a website builder?</summary>
         <hr>
         <p>My position is affordable long-term options. Instead of paying $30+/month for a site that your business will never own, <b>pay a flat rate</b>, and own your content.  I can build tools to help manage and improve your business too.
         </p>
@@ -112,16 +114,17 @@
         </a>
       </div>
     </section> -->
-    <section id="about">
+    <!-- <section id="about">
       <h2>Learn More About Me</h2>
       <hr>
       <div class="me">
         <img src="me.png" alt="Picture of Derek Knight">
+        <p></p>
         <NuxtLink to="/about" class="button--yellow">Watch My Story</NuxtLink>
       </div>
-    </section>
+    </section> -->
     <section id="form">
-      <h2>Fill it out to get in touch.</h2>
+      <h2>Let's get in touch.</h2>
       <hr>
       <ContactForm/>
     </section>
@@ -287,8 +290,18 @@ export default {
 
   /* Review Section */
 
+  #review .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+  }
+
   #review img{
-    margin-top: 25px;
+    /* margin-top: 25px; */
+    max-height: 500px;
+    max-width: 500px;
+    margin: 50px auto 25px;
   }
 
   /*  Examples Section */
@@ -392,10 +405,10 @@ export default {
   }
 
   #about .me {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    display: grid;
+    place-items: center;
     margin-top: 50px;
+    /* justify-content: space-evenly; */
   }
   #about img {
     border-radius: 50%;

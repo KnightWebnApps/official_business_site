@@ -1,4 +1,3 @@
-** List All Features
 <template>
   <Page>
     <template v-slot:header>
@@ -25,7 +24,7 @@
 <script>
 import sanityClient from '~/sanityClient'
 import groq from 'groq'
-import Page from '../../components/Page.vue'
+import Page from '~/components/Page.vue'
 
 const query = groq`{ 
   "features": *[_type == "feature"]

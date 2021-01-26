@@ -13,9 +13,9 @@
         <li>
           <NuxtLink to="/posts">Blog</NuxtLink>
         </li>
-        <li>
+        <!-- <li>
           <NuxtLink to="/about">My Story</NuxtLink>
-        </li>
+        </li> -->
       </ul>
     </div>
   </nav>
