@@ -69,6 +69,6 @@ h2, h3, h4, h5, h6 {
 
 .content img{
   width: 100%;
-  margin: 1em;
+  margin: 1em 0 ;
 }
 </style>

@@ -8,15 +8,15 @@
   >
     <input type="hidden" name="form-name" value="contact" />
     <label for="name">Name or Business Name</label>
-    <input name="name" type="text" required v-model="name" minlength="3" placeholder="Contact Name">
+    <input id="name" name="name" type="text" required v-model="name" minlength="3" placeholder="Contact Name">
     <label for="email">Email</label>
     <small>*I will never send unsolicited emails.</small>
-    <input name="email" type="email" required v-model="email" placeholder="Email that I reply to.">
+    <input id="email" name="email" type="email" required v-model="email" placeholder="Email that I reply to.">
     <label for="website">Current Website Url</label>
-    <input type="url" name="website" v-model="website" placeholder="Leave blank if you don't have one.">
+    <input id="website" type="url" name="website" v-model="website" placeholder="Leave blank if you don't have one.">
     <label for="inquiry">Inquiry</label>
-    <textarea name="inquiry" required v-model="inquiry"></textarea>
-    <button type="submit" class="button--yellow">Send</button>
+    <textarea id="inquiry" name="inquiry" required v-model="inquiry"></textarea>
+    <button type="submit" class="button--yellow">Send Message</button>
   </form>
 </template>
 
