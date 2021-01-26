@@ -31,7 +31,7 @@ export default {
   components: { Page, ContactForm },
   mounted () {
     gsap.to('#title', {
-      x: '40%',
+      x: 20,
       opacity: 1
     })
     gsap.to('#bubble', {
@@ -55,7 +55,7 @@ export default {
 h1 {
   position: absolute;
   top: calc(20vh + 60px);
-  right: 0;
+  right: 50%;
   opacity: 0;
   width: 250px;
   margin: 0 0 0 100px;
