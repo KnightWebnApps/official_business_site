@@ -2,9 +2,11 @@
   <Page>
     <template v-slot:header><span></span></template>
     <div class="center">
-      <h1>Thank You Much</h1>
-      <NuxtLink to="/" class="button--grey">Back Home</NuxtLink>
-      <NuxtLink to="/posts" class="button--grey">Read My Blog</NuxtLink>
+      <h1>Thank You!</h1>
+      <hr>
+      <p>You can expect to hear from me in 1-2 business days.  </p>
+      <NuxtLink to="/" class="button--yellow">Back Home</NuxtLink>
+      <NuxtLink to="/posts" class="button--yellow">Read My Blog</NuxtLink>
     </div>
 
   </Page>
@@ -22,10 +24,10 @@ export default {
   }
 
   .center h1 {
-    margin: 1em 0;
+    margin: 1em 0 0;
   }
 
   .center a {
-    margin: 15px 0;
+    margin: 50px 0;
   }
 </style>
