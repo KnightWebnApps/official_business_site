@@ -52,11 +52,6 @@ export default {
       error(e)
     }
   },
-  data() {
-    return {
-      project: localStorage.getItem('project') || null
-    }
-  },
   head () {
     return {
       title: `Knight Digital Development | Products`,
