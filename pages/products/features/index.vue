@@ -8,15 +8,13 @@
     <section>
       <ul>
         <li v-for="feature in features" :key="feature._id">
-          <NuxtLink :to="'features/' + feature.slug.current" class="button--grey card">
+          <NuxtLink :to="'features/' + feature.slug.current" class="button--yellow card">
             <h2>{{ feature.title }} <span>$ {{ feature.price }}</span> </h2>
 
             <p>{{ feature.blurb }}</p>
           </NuxtLink>
         </li>
       </ul>
-      <h2>Just looking for a Feature?</h2>
-      <NuxtLink to="/features" class="button--grey card">View All Features</NuxtLink>
     </section>
   </Page>
 </template>

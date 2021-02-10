@@ -29,7 +29,7 @@
       <h2>Features</h2>
       <hr>
       <p>Add features to bring your project to life.</p>
-      <NuxtLink to="/features" class="button--grey card">View All Features</NuxtLink>
+      <NuxtLink to="/products/features" class="button--grey card">View All Features</NuxtLink>
     </section>
   </Page>
 </template>
