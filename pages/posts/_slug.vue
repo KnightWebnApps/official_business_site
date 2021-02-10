@@ -55,16 +55,27 @@ export default {
 
 <style scoped>
 h1 {
-  margin: 1em 0;
+  margin-bottom: 1em;
 }
 
 h2, h3, h4, h5, h6 {
-  margin: 15px 0 ;
+  margin-bottom: .5em;
 }
 
-.content p {
-  letter-spacing: 1px;
-  line-height: 2;
+p {
+  margin-bottom: 1em;
+  letter-spacing: 1.2px;
+  line-height: 1.7;
+}
+
+ul, ol {
+  margin: 1em 0;
+  list-style: square;
+  padding-left: 30px;
+}
+
+li {
+  margin-bottom: .5em;
 }
 
 .content img{

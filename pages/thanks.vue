@@ -4,7 +4,7 @@
     <div class="center">
       <h1>Thank You!</h1>
       <hr>
-      <p>You can expect to hear from me in 1-2 business days.  </p>
+      <p>You can expect to hear from me in 1 business day.  </p>
       <NuxtLink to="/" class="button--yellow">Back Home</NuxtLink>
       <NuxtLink to="/posts" class="button--yellow">Read My Blog</NuxtLink>
     </div>

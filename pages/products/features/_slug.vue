@@ -52,6 +52,31 @@ export default {
 
 <style scoped>
 h1 {
+  margin-bottom: 1em;
+}
+
+h2, h3, h4, h5, h6 {
+  margin-bottom: .5em;
+}
+
+p {
+  margin-bottom: 1em;
+  letter-spacing: 1.2px;
+  line-height: 1.7;
+}
+
+ul, ol {
+  margin: 1em 0;
+  list-style: square;
+  padding-left: 30px;
+}
+
+li {
+  margin-bottom: .5em;
+}
+
+img{
+  width: 100%;
   margin: 1em 0 ;
 }
 </style>
